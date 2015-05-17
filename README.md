@@ -13,7 +13,7 @@ Two unused pins should be coupled to Vdd with a 10k resistor.
 
 Mode 1: Manual setting of servo position with pot. This is useful to carefully move in a problematic range
 
-Mode 2: Automatic sweep end to end. I first gave the pot control over speed, but found that limiting deflection was a better use. The unused three-position switch was assigned the task of choosing upper, entier or lower range of movement with respect to zero
+Mode 2: Automatic sweep end to end. I first gave the pot control over speed, but found that limiting deflection was a better use. The unused three-position switch was assigned the task of choosing upper, entire or lower range of movement with respect to zero
 
 Mode 3: The three position switch places the servo in either extreme position or zero. The pot again can limit the output at extreme position.s
 
