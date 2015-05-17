@@ -101,7 +101,6 @@ TRI  EQU GP4 ; a switch for min-center-max output
 TRIA EQU AN3 ; analog mapping - AN3 belongs to GP4, on pin 3
 MOD  EQU GP2 ; a switch for mode; pot - sweep - three levels
 MODA EQU AN2 ; analog mapping
-LED  EQU GP4 ; active low here
 OUT  EQU GP5 ; servo output
 
 ; uC settings
@@ -491,7 +490,6 @@ halfPot
   movfw potL
   movwf pot2L
   movfw potH
-  andlw 0x03            ; maybe not needed, but clears out bits other than 0, 1
   movwf pot2H
   bcf STATUS, C
   rrf pot2H             ; divide by 2
