@@ -3,6 +3,7 @@ RC servo test appliance using Microchip PIC 12F675
 
 The idea was to create a hand-held appliance to work with servos when installing in rc airplanes, and ensure correct movement of wing surfaces, throttle valve and perhaps most important - zero point of servo.
 I added a bit more as i tested and used the appliance - it is now a neat tool for doing the intended job.
+The power is three AA or AAA sized batteries, giving a nominal voltage of 4.5 volts
 
 There are four external components in addition to battery (with power on/off) and the PIC 12F675 itself ;
 * two three-position switches on-off-on
